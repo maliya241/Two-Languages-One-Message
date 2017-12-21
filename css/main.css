@@ -236,3 +236,7 @@ Web Pages
   #kidspraying, #kidsinclassroom {
     border: 5px solid #F68E1C;
   }
+
+  .aboutpemail {
+    word-wrap: normal;
+  }
