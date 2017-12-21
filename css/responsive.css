@@ -1,3 +1,9 @@
+@media screen and (max-width: 400px) {
+  .espanol img, .english img {
+    width: 50%;
+  }
+}  
+
 @media screen and (max-width: 500px) {
   .lessondropdown li {
     float: left;
@@ -62,7 +68,7 @@
     transform: rotate(7deg);
   }
   
-  .about2 {
+  .about2 p {
     word-wrap: break-word;
   }
   
