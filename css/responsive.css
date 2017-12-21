@@ -1,0 +1,95 @@
+@media screen and (max-width: 500px) {
+  .lessondropdown li {
+    float: left;
+    width: 90%;
+    margin: 1.75%;
+    clear: both;
+  }
+}
+
+@media screen and (min-width: 501px) {
+  .lessondropdown li {
+    float: left;
+    width: 45%;
+    margin: .5%;
+  }
+  
+  .outer-left {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    padding: 5%;
+    left: 0;
+    background-color: #705EAA;
+  }
+  
+  .outer-right {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    padding: 5%;
+    right: 0;
+    background-color: #A0C23D;
+    color: #FFF;
+  }
+
+  .middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .inner, .english, .espanol {
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+  }
+}  
+
+@media screen and (min-width: 700px) {  
+  .about1 p {
+    word-wrap: break-word;
+  }
+  
+  #kidsinclassroom {
+    float: right;
+    width: 35%;
+    margin: 1em 0.5em 0.5em 1em;
+    border: 5px solid #86E6EF;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari 3-8 */
+    transform: rotate(7deg);
+  }
+  
+  .about2 {
+    word-wrap: break-word;
+  }
+  
+  #kidspraying {
+    float: left;
+    width: 35%;
+    margin: 1em 1em 0.5em 0.5em;
+    border: 5px solid #86E6EF;
+    -ms-transform: rotate(353deg); /* IE 9 */
+    -webkit-transform: rotate(353deg); /* Safari 3-8 */
+    transform: rotate(353deg);
+  }
+}
+
+
+@media screen and (min-width: 800px) {
+  .lessondropdown li {
+    float: left;
+    width: 20%;
+    margin: 1.5%;
+  }
+}
+
+@media screen and (min-width: 1060px) {
+  .lessondropdown li {
+    float: left;
+    width: 20%;
+    margin: 1.75%;
+  }
+}

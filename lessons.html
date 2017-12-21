@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8"> 
+      <title>Lessons &#124; Two Languages - One Message</title>
+      <link rel="stylesheet" href="css/normalize.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito:400,600" rel="stylesheet">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+      <link rel="manifest" href="img/favicon/manifest.json">
+      <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#a0c23d">
+      <meta name="theme-color" content="#a0c23d">
+      <meta name="description" content="Free Bible lessons in English and Spanish for all ages! We strive to provide fun, creative, and spiritually enriching Bible lessons for any English or Spanish speaker. We know that it is difficult to find free resources for Bible class, especially in Spanish! We are providing lessons for preschool age all the way up through adults in both languages that can be used in the school setting as well as Sunday school at church or in the home." />
+      <meta name="keywords" content="Spanish, English, free, Bible, lessons, español, inglés" />
+    </head>
+    <body>
+      <header>
+        <nav>
+          <a href="about.html">About Us</a> &#124; 
+          <a href="lecciones.html">Español</a>
+        </nav>
+        <br>
+        <!--<h1>Two Languages - One Message</h1>-->
+        <img id="2Languages1MessageLogo" src="img/2Languages1MessageLogo.png" alt="Two Languages - One Message">
+      </header>
+      <div class="wrapper">
+        <div class="wrapperbackground">
+          <p class="websitedescription">Free Bible lessons in English and Spanish for all ages! We strive to provide fun, creative, and spiritually enriching Bible lessons for any English or Spanish speaker. We know that it is difficult to find free resources for Bible class, especially in Spanish! We are providing lessons for preschool age all the way up through adults in both languages that can be used in the school setting as well as Sunday school at church or in the home.</p>
+          <br>
+          <div>
+            <h2>Children&#39;s Bible Lessons</h2>
+            <button class="lessonbutton">Impact of 7 Days</button>
+            <ul class="lessondropdown">
+              <li><canvas id="SpanishTheImpactof7Days"></canvas><p class="caption"><a href="pdf/SpanishTheImpactof7Days.pdf">English</a> &#124; <a href="pdf/SpanishTheImpactof7Days.pdf">Spanish</a></p></li>
+              <li><canvas id="TheHedgehogAndTheFox"></canvas><p class="caption"><a href="pdfTest/TheHedgehogAndTheFox.pdf">English</a> &#124; <a href="pdfTest/TheHedgehogAndTheFox.pdf">Spanish</a></p></li>
+              <li><canvas id="Panda"></canvas><p class="caption"><a href="pdfTest/Panda.pdf">English</a> &#124; <a href="pdfTest/Panda.pdf">Spanish</a></p></li>
+              <li><canvas id="socktoberflyer1"></canvas><p class="caption"><a href="pdfTest/socktoberflyer1.pdf">English</a> &#124; <a href="pdfTest/socktoberflyer1.pdf">Spanish</a></p></li>
+            </ul>
+            <button class="lessonbutton">Lesson Name</button>
+            <ul class="lessondropdown">
+              <li><canvas id="HedgehogInformation"></canvas><p class="caption"><a href="pdfTest/HedgehogInformation.pdf">English</a> &#124; <a href="pdfTest/HedgehogInformation.pdf">Spanish</a></p></li>
+            </ul>
+            <button class="lessonbutton">Lesson Name</button>
+            <ul class="lessondropdown">
+              <li><canvas id="socktoberflyer2"></canvas><p class="caption"><a href="pdfTest/socktoberflyer2.pdf">English</a> &#124; <a href="pdfTest/socktoberflyer2.pdf">Spanish</a></p></li>
+            </ul>
+          </div>
+          <div>
+            <h2>Teen&#47;Adult Bible Lessons</h2>
+            <button class="lessonbutton">Lessons from Job</button>
+            <ul class="lessondropdown">
+              <li><canvas id="EnglishLessonsfromJob"></canvas><p class="caption"><a href="pdf/EnglishLessonsfromJob.pdf">English</a> &#124; <a href="pdf/SpanishLeccionesdeJob.pdf">Spanish</a></p></li>
+            </ul>
+            <button class="lessonbutton">Romans</button>
+            <ul class="lessondropdown">
+              <li><canvas id="EnglishRomans"></canvas><p class="caption"><a href="pdf/EnglishRomans.pdf">English</a><!--&#124; <a href="pdf/.pdf">Spanish</a>--></p></li>
+            </ul>
+          </div>
+          <div>
+            <h2>Other Resources</h2>
+            <p class="otherresources">
+              <a href="http://apologeticspress.org/">Apologetics Press</a><br>
+              <a href="https://calvarycurriculum.com/">Calvary Bible Curriculum</a><br>
+              <a href="https://www.teensundayschool.com/lessons.php">Teen Sunday School</a><br>
+              <a href="https://www.worldbibleschool.org/connect?id=953727&gclid=CjwKCAjwt8rMBRBOEiwA2F2biBL3RHsC31I1W3j4QAW88Eu4KjSdmiLWsoyy6AeRrxftXrgaazLhXxoCOG8QAvD_BwE">World Bible School</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+      <script type="text/javascript" src="js/pdf.js"></script>
+      <script type="text/javascript">
+        PDFJS.workerSrc = "js/pdf.worker.js";
+      </script>
+      <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+  </html>

@@ -1,0 +1,236 @@
+  *, button{
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #FFF;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  h1, p {
+    color: #FFF;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    /*color: #A0C23D;*/
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.75em;
+    font-weight: bold;
+    color: #705EAA;
+  }
+  
+  p, nav {
+    font-size: 1.25em;
+  }
+  
+  li {
+    list-style: none;
+    width: 100%;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  header img {
+    width: 50%;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/**********
+Index Page
+**********/
+  .espanol h2, .english h2 {
+    font-size: 1.75em;
+    font-weight: bold;
+    color: #FFF;
+  } 
+  
+  .outer-left {
+    display: table;
+    position: absolute;
+    height: 50%;
+    width: 90%;
+    padding: 5%;
+    top: 0;
+    left: 0;
+    background-color: #705EAA;
+  }
+  
+  .outer-right {
+    display: table;
+    position: absolute;
+    height: 50%;
+    width: 90%;
+    padding: 5%;
+    bottom: 0;
+    right: 0;
+    background-color: #A0C23D;
+    color: #FFF;
+  }
+
+  .middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .inner, .english, .espanol {
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+  }
+  
+  .indexbutton {
+    background-color: #F68E1C;
+    border: 2px solid #FFF;
+    border-radius: 12px;
+    color: #FFF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  
+  .indexbutton:hover {
+    background-color: #FFF; 
+    color: #F68E1C;
+    border-color: #F68E1C;
+  }
+    
+/**********
+Web Pages
+**********/
+  nav {
+    position: relative;
+    float: right;
+    margin: 5px 5px 0 0;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+  }
+  
+  body {
+    background-color: #A0C23D;
+    /*background-image: url("../img/LightBiblesBackground.png");*/
+  }
+  
+  header {
+    padding: 3% 5% 0 5%;
+  }
+  
+  .otherresources {
+    text-align: left;
+    background-color: #F68E1C;
+    padding: 2.5%;
+  }
+  
+  .websitedescription {
+    background-color: #F68E1C;
+    padding: 2.5%;
+    margin: 5px 0;
+  }
+  
+  .wrapperbackground {
+    background-color: #FFF;
+    padding: 2.5% 10%;
+    margin-bottom: 5%;
+  }
+  
+  .lessonbutton {
+    background-color: #705EAA;
+    border: none;
+    color: #86E6EF;
+    width: 100%;
+    padding: 15px 32px;
+    margin-bottom: 5px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  
+  .lessonbutton:hover {
+    background-color: #86E6EF; 
+    color: #705EAA;
+  }
+  
+/*Lesson Dropdown*/
+
+  .lessondropdown {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+  }
+
+  .lessondropdown li {
+    float: left;
+    width: 45%;
+    margin: 1.25%;
+    background-color: #86E6EF;
+    border: 5px solid #86E6EF;
+    color: #fff;
+  }
+
+  .lessondropdown .caption {
+    text-align: center;
+    margin: 0;
+    padding: 1%;
+    color: #FFF;
+    font-size: 1.25em;
+    font-weight: normal;
+  }
+
+  canvas {
+    width: 100%;
+  }
+
+  div {
+    clear: both;
+  }
+
+  .lessondropdown .lessondescriptionli {
+    margin: 0 1.25%;
+    width: 97.5%;
+    display:inline-block;
+    clear:right;
+    border: none;
+  }
+  
+  .lessondescription {
+    padding: 0 0.5em;
+    margin: 0.5em 0;
+  }
+
+  /*About Pages*/
+  .aboutp {
+    color: #705EAA;
+  }
+  
+  #kidspraying, #kidsinclassroom {
+    border: 5px solid #F68E1C;
+  }
