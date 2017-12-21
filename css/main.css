@@ -229,6 +229,7 @@ Web Pages
   /*About Pages*/
   .aboutp {
     color: #705EAA;
+    word-wrap: break-word;
   }
   
   #kidspraying, #kidsinclassroom {
